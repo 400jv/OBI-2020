@@ -8,10 +8,6 @@ for x in range(len(sequencia)):
   if not (1 <= int(sequencia[x]) <= 1000): exit()
   sequencia[x] = int(sequencia[x])
 
-if n % 2 != 0:
-  print("N")
-  exit()
-
 soma = sequencia[0] + sequencia[n -1]
 
 for x in range(1, len(sequencia)):
