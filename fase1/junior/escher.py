@@ -5,8 +5,8 @@ sequencia = input().split(' ')
 if not (1 <= len(sequencia) <= n): exit()
 
 for x in range(len(sequencia)):
-  if not (1 <= int(sequencia[x]) <= 1000): exit()
   sequencia[x] = int(sequencia[x])
+  if not (1 <= sequencia[x] <= 1000): exit()
 
 soma = sequencia[0] + sequencia[n -1]
 
